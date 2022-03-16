@@ -6,130 +6,166 @@
 		<title>Kim Artienda Portfolio</title>
 		<script src="https://kit.fontawesome.com/882e1dd9d0.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="./index.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
-		<script src="https://kit.fontawesome.com/882e1dd9d0.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 	<body>
-
-		<!-- Navigation -->
+		<!-- navigation start -->
 		<div class="container-fluid">
-			<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-			  <a class="navbar-brand" href="#"><!-- <img src="./images/mylogo.png" id="mylogo"> -->KA</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+			  <a class="navbar-brand" href="#">KA</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
 
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav ml-auto">
+			  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			    <ul class="navbar-nav mx-auto">
 			      <li class="nav-item active">
-			        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="#landing">Home</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#aboutme">About</a>
+			        <a class="nav-link" href="#about">About</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#services">Services</a>
+			        <a class="nav-link" href="#projects">Projects</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#portfortlio">Portfortlio</a>
+			        <a class="nav-link" href="#tools">Tools</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#contact">Contact</a>
 			      </li>
 			    </ul>
-			    <form class="form-inline my-2 my-lg-0">
-			      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" href="#booknow">Book Now!</button>
-			    </form>
+			   
 			  </div>
 			</nav>
+		</div>	
+			<!-- navigation end -->
 
-			<!-- landing -->
-			
-			<div class="row flex-column align-items-center mt-5 jumbotron text-white" id="landing">
+			<!-- background start -->
+		
+		<div class="container-fluid">
+			<div class="background row flex-column jumbotron" id="landing">
 				<div class="col-10 col-md-2">
-					<img src="./images/myphoto.jpg" class="img-fluid rounded-circle" id="myphoto">
+					<img src="./images/myphoto.jpg" class="img-fluid rounded-circle">
 				</div>
-				<div class="col-12 col-md-6">
+				<div class="heading-content col-12 col-md-6">
 					<h2>Kimberly Carmel Artienda</h2>
 					<h4>Full Stack Web Developer</h4>
+					<p>Wecome to my page!</p>
 				</div>
 			</div>
 		</div>
 
-		<!-- About Me -->
+		<!-- background end -->
 
-		<div class="container-fluid">
-			<div class="row my-5">
-				<div class="col-3 text-center">
-					<img src="./images/myphoto.jpg" class="img-fluid d-none d-md-flex" id="aboutphoto">	
-				</div>
-				<div class="col-6 col-md-6">
-					<h5 class="my-3" id="discover">Discover</h5>
-					<h3 class="my-3" id="aboutme">About me</h3>
-					<p>I'm a career shifter from Finance and a Full Stack Developer based in the Philippines. I am very passionate and dedicated to my work.</p>
-					<ul class="col-md-6" id="info">
-						<li>Name: Kimberly Carmel Artienda</li>
-						<li>Age: 27</li>
-						<li>School: University of the East-</li>
-						<li>Education: BSBA Major in Financial Management </li>
-						<li>Nationality: Filipino</li>
-					</ul>
-					<button type="button" class="btn btn-warning">Download CV</button>
-				</div>
+		<!-- About Start -->
+		<div id="about" class="container-fluid">
+			<div class="post-heading">
+				<h1 class="display-4">About Me</h1>
+				<hr>
 			</div>
-		</div>
-
-		<!-- Services -->
-		<div class="container-fluid">
-			<h5 id="what-i-do">What I Do</h5>
-			<h3 id="services">My Services</h3>
 			<div class="row">
-				<div class="col-12 col-md-4">					
-					<div class="card" style="width: 18rem;">
-					  <div class="card-body">
-					  	<i class="fa-solid fa-laptop fa-icons"></i>
-					    <h5 class="card-title">Web Development</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="card-link">Order now</a>
-					  </div>
-					</div>
+				<div class="col-lg-6 col-md-8 col-12">
+					<img src="./images/myphoto.jpg" class="img-fluid center" id="aboutmephoto">
 				</div>
-				<div class="col-12 col-md-4">					
-					<div class="card" style="width: 18rem;">
-					  <div class="card-body">
-					  	<i class="fa-solid fa-compass-drafting fa-icons"></i>
-					    <h5 class="card-title">UI/UX Design</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="card-link">Order now</a>
-					  </div>
-					</div>
+				<div class="col-lg-6 col-md-8 col-12" id="aboutmep">
+					<h2>Hey there! I'm Kim, a Full Stack Web Developer.</h2>
+					
+					<p>After developing major dashboards in the finance industry for several years, the urge to switch contexts and dive further into tech grew too strong to ignore. In December 2021, I left the security and stability I had always known to focus solely on honing and growing my programming skills.</p>
+
+					<p>My passion for developing is unmatched. Every day I wake up pumped to collaborate, design and code. I love every aspect of bringing an idea to fruition and find each step of the way exciting.</p>
+					<button class="btn w-50">
+						<a href="#">More Details</a>
+					</button>
 				</div>
-				<div class="col-12 col-md-4">					
-					<div class="card" style="width: 18rem;">
-					  <div class="card-body">
-					  	<i class="fa-solid fa-pen-ruler fa-icons"></i>
-					    <h5 class="card-title">Creative Design</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="card-link">Order now</a>
-					  </div>
-					</div>
-				</div>
-			</div>	
+			</div>
 		</div>
 
+		<!-- About End -->
+
+		<!-- Projects -->
+		<div id="projects" class="container-fluid mt-3 mb-5">
+			<div class="post-heading">
+				<h1 class="display-4">Projects</h1>
+				<hr>
+			</div>
+
+			<div class="row">
+				<div class="d-flex col-lg-4 col-md-6 col-12 pb-5">
+					<div class="card">
+					  <img src="./images/portfolio1.png" class="card-img-top" alt="portfolio1">
+					  <div class="card-body flex-fill">
+					    <h5 class="card-title">Food Website</h5>
+					    <p class="card-text">A food blog is a blog that documents anything from recipes that the author wants to try or experiment, restaurant reviews, or even a journal-style delivery about a person's life choices. A blog is a personal thing—there's no right or wrong content focus.</p>
+					    <a href="#" class="btn btn-dark">Live Preview</a>
+					  </div>
+					</div>
+				</div>
+				<div class="d-flex col-lg-4 col-md-6 col-12 pb-5">
+					<div class="card">
+					  <img src="./images/portfolio2.jpg" class="card-img-top" alt="portfolio2">
+					  <div class="card-body flex-fill">
+					    <h5 class="card-title">E-Commerice Website</h5>
+					    <p class="card-text">Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app.</p>
+					    <a href="#" class="btn btn-dark">Live Preview</a>
+					  </div>
+					</div>
+				</div>
+				<div class="d-flex col-lg-4 col-md-6 col-12 pb-5">
+					<div class="card">
+					  <img src="./images/portfolio3.jpeg" class="card-img-top" alt="portfolio3">
+					  <div class="card-body flex-fill">
+					    <h5 class="card-title">Music Website</h5>
+					    <p class="card-text">A Web-based service that sells copyrighted songs and albums for a fee. With Apple's iTunes being the most popular, an online music store is a legitimate music distribution organization that pays royalties to the music's copyright holders.</p>
+					    <a href="#" class="btn btn-dark">Live Preview</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Tools -->
+		
+		
+		<div class="container-fluid" id="tools">
+			<div class="post-heading">
+				<h1 class="display-4">Tools</h1>
+				<hr>
+			</div>
+
+			<div class="row logo-image">
+				<div class="col-12 col-md-12">
+					
+					<div class="d-flex justify-content-center">
+						<img src="./images/logo-html5.png">
+						<img src="./images/logo-css3.png">
+						<img src="./images/logo-javascript.png">
+					</div>
+				</div>
+				<div>
+				</div>
+				<div class="col-12 col-md-12">
+					<div class="d-flex justify-content-center">
+						<img src="./images/logo-git.png">
+						<img src="./images/logo-sublime-text-3.png">
+						<img src="./images/logo-gitlab-ci-cd.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
 		<!-- Contact -->
-
-		<h2 class="text-center my-5" id="contact">Contact Us!</h2>
-			<div class="row">
-				<div class="col-12 col-md-6">
-					<h3 class="text-center">Visit Us!</h3>
-					<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=mandaluyong&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-				</div>
-				<div class="col-12 col-md-6">
-					<h3 class="text-center">Inquire</h3>
+		<div class="post-heading">
+				<h1 class="display-4" id="contact">Contact US</h1>
+				<hr>
+			</div>
+			<div class="row" id="contact-details">
+				<div class="col-12 col-md-12">
+					<h3>Message Us!</h3>
 					<form>
 						<div class="form-group">
 							<label for="txt-username">Name:</label>
@@ -137,41 +173,44 @@
 						</div>
 						<div class="form-group">
 							<label for="txt-email">Email:</label>
-							<input type="email" name="email" id="txt-email" placeholder="yourname@example.com" class="form-control">
-						</div>
-						<div class="form-group">
-							<label for="number">Contact Number:</label>
-							<input type="text" name="email" id="number" placeholder="Enter Mobile Number" class="form-control">
+							<input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control">
 						</div>
 						<div class="form-group">
 							<label for="txt-message">Message:</label>
 							<textarea class="form-control" id="txt-message" rows="3"></textarea>
 						</div>
-						<button type="submit" class="btn btn-block btn-outline-primary">
+						<button type="submit" class="btn btn-block btn-dark">
 							Submit
-						</button>
-						<button type="submit" class="btn btn-block btn-outline-danger">
-							Reset
 						</button>
 					</form>
 				</div>
+			</div>	
+			<div class="row" id="visit-details">
+				<div class="col-12 col-md-12">
+				<h3> Visit Us!</h3>
+				<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=mandaluyong&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</div>
 			</div>
-			<!-- end of contact -->
-
-		<footer class="bg-dark mt-5 p-2">
+			
+		</div>
+		<!-- Footer -->
+		<footer class="bg-dark">
 			<p class="text-center text-white">
 				&copy; 2022 Kim Artienda | All rights reserved </p>
-			<div class="d-flex justify-content-center mb-2 py-2">
+			<div class="d-flex justify-content-center">
 
-				<a href="https://www.linkedin.com/in/kimartienda/" target="_blank" class="text-white mx-2">
+				<a href="https://www.linkedin.com/in/kimartienda/" target="_blank">
 					<i class="fa-brands fa-linkedin footer-icons"></i>
 				</a>
-				<a href="https://gitlab.com/kimartienda/" target="_blank" class="text-white mx-2">
+				<a href="https://gitlab.com/kimartienda/" target="_blank">
 					<i class="fa-brands fa-gitlab footer-icons"></i>
 				</a>
-
 			</div>	
 		</footer>
+
+
+
+
 
 
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
