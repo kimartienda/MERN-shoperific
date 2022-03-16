@@ -1,0 +1,99 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1rem;
+}
+
+body {
+	background-color: whitesmoke;
+;
+}
+
+#landing {
+	background-image: url(https://images.pexels.com/photos/11167646/pexels-photo-11167646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+	background-size: cover; /*cover the area of the element*/
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+
+#landing h4 {
+	font-size: 15px;
+
+}
+
+#landing h2, h4 {
+	color: ghostwhite;
+
+}
+
+#myphoto {
+	border: 1px solid black; box-shadow: 1px 5px 5px #fe6710
+}
+
+#aboutphoto {
+	height: 250px;
+	width: 250px;
+}
+
+#info {
+	list-style-type: none;
+	border-style: solid;
+	border-color: #fe6710;
+	margin: 20px;
+	padding: 1.5rem;
+}
+
+#discover {
+	color: #fe6710;
+}
+
+#aboutme {
+	font-weight: 900;
+	text-decoration: underline;
+	text-decoration-color: #fe6710;
+}
+
+#what-i-do {
+	color: #fe6710;
+}
+
+#services {
+	font-weight: 900;
+	text-decoration: underline;
+	text-decoration-color: #fe6710;
+}
+
+.card {
+	background-color: #6c6c78;
+	align-items: center;
+	display: block;
+}
+
+
+.card-title {
+	color: white;
+}
+
+.card-link {
+	color: #fe6710;
+}
+
+.fa-icons {
+	color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#gmap_canvas {
+	height: 80vh;
+	width: 100%;
+}
+
+.footer-icons {
+	font-size: 2rem;
+
+
