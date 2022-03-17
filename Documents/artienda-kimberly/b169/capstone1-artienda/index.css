@@ -3,7 +3,6 @@
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Poppins', sans-serif;
-	box-sizing: border-box;
 }
 
 body {
@@ -35,6 +34,7 @@ body {
 
 .navbar .navbar-brand {
 	font-size: 2rem;
+	margin-left: 1rem;
 	
 }
 
@@ -48,26 +48,12 @@ body {
 	color: #1ebba3;
 }
 
-.navbar-brand {
-	margin-left: 1rem;
-}
-
-#navbarTogglerDemo02 form {
-	margin-right: 1rem;
-}
-
 #navbarTogglerDemo02 > button {
 	font-weight: 600;
 	padding: 0.4rem 1.4rem;
 	border-radius: 30px;
 	margin-right: 5rem;
 }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- }
 
  .heading-content {
  	top: 30%;
@@ -83,6 +69,7 @@ body {
  	color: #000;
  	font-family: monospace;
  	color: whitesmoke;
+ 	padding: 2rem;
  }
 
   .heading-content h4 {
@@ -101,6 +88,7 @@ body {
  	word-spacing: 5px;
  	letter-spacing: 2px;
  	color: whitesmoke;
+ 	padding: 1rem;
  }
 
  #landing {
@@ -109,15 +97,6 @@ body {
  	background: rgba(0, 0, 0, .3);
 
  }
-
- #landing h2 {
- 	padding: 2rem;
- }
-
-  #landing p {
- 	padding: 1rem;
- }
-
 
  .rounded-circle {
  	border: 1px solid black; box-shadow: 1px 5px 5px #36454f
