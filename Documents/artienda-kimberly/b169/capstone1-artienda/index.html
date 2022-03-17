@@ -14,8 +14,8 @@
 	<body>
 		<!-- navigation start -->
 		<div class="container-fluid">
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-			  <a class="navbar-brand" href="#">KA</a>
+			<nav class="navbar navbar-expand-lg navbar-dark navbar-fixed">
+			  <a class="navbar-brand" href="#landing">KA</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -38,7 +38,7 @@
 			        <a class="nav-link" href="#contact">Contact</a>
 			      </li>
 			    </ul>
-			   
+			   <button class="btn btn-success" type="submit">Book Now!</button>
 			  </div>
 			</nav>
 		</div>	
@@ -62,24 +62,22 @@
 		<!-- background end -->
 
 		<!-- About Start -->
-		<div id="about" class="container-fluid">
+		<div class="container-fluid">
 			<div class="post-heading">
-				<h1 class="display-4">About Me</h1>
+				<h1 class="display-4"id="about">About Me</h1>
 				<hr>
 			</div>
 			<div class="row">
-				<div class="col-lg-6 col-md-8 col-12">
-					<img src="./images/myphoto.jpg" class="img-fluid center" id="aboutmephoto">
+				<div class="col-md-6 col-12 d-none d-md-flex">
+					<img src="./images/myphoto2.png" id="myphoto">
 				</div>
-				<div class="col-lg-6 col-md-8 col-12" id="aboutmep">
+				<div class="col-md-6 col-12" id="aboutmep">
 					<h2>Hey there! I'm Kim, a Full Stack Web Developer.</h2>
 					
 					<p>After developing major dashboards in the finance industry for several years, the urge to switch contexts and dive further into tech grew too strong to ignore. In December 2021, I left the security and stability I had always known to focus solely on honing and growing my programming skills.</p>
 
 					<p>My passion for developing is unmatched. Every day I wake up pumped to collaborate, design and code. I love every aspect of bringing an idea to fruition and find each step of the way exciting.</p>
-					<button class="btn w-50">
-						<a href="#">More Details</a>
-					</button>
+					<button class="btn btn-block btn-dark" type="button">More Details</button>
 				</div>
 			</div>
 		</div>
@@ -87,14 +85,14 @@
 		<!-- About End -->
 
 		<!-- Projects -->
-		<div id="projects" class="container-fluid mt-3 mb-5">
+		<div class="container-fluid">
 			<div class="post-heading">
-				<h1 class="display-4">Projects</h1>
+				<h1 class="display-4" id="projects">Projects</h1>
 				<hr>
 			</div>
 
 			<div class="row">
-				<div class="d-flex col-lg-4 col-md-6 col-12 pb-5">
+				<div class="d-flex col-lg-4 col-md-6 col-12">
 					<div class="card">
 					  <img src="./images/portfolio1.png" class="card-img-top" alt="portfolio1">
 					  <div class="card-body flex-fill">
@@ -104,7 +102,7 @@
 					  </div>
 					</div>
 				</div>
-				<div class="d-flex col-lg-4 col-md-6 col-12 pb-5">
+				<div class="d-flex col-lg-4 col-md-6 col-12">
 					<div class="card">
 					  <img src="./images/portfolio2.jpg" class="card-img-top" alt="portfolio2">
 					  <div class="card-body flex-fill">
@@ -114,7 +112,7 @@
 					  </div>
 					</div>
 				</div>
-				<div class="d-flex col-lg-4 col-md-6 col-12 pb-5">
+				<div class="d-flex col-lg-4 col-md-6 col-12">
 					<div class="card">
 					  <img src="./images/portfolio3.jpeg" class="card-img-top" alt="portfolio3">
 					  <div class="card-body flex-fill">
@@ -135,38 +133,48 @@
 				<h1 class="display-4">Tools</h1>
 				<hr>
 			</div>
+			<div>
+				<h2>Front End</h2>
+			</div>
 
 			<div class="row logo-image">
 				<div class="col-12 col-md-12">
-					
 					<div class="d-flex justify-content-center">
 						<img src="./images/logo-html5.png">
 						<img src="./images/logo-css3.png">
 						<img src="./images/logo-javascript.png">
 					</div>
 				</div>
+			</div>
+
+			
 				<div>
+					<h2>Others</h2>
 				</div>
+				<div class="row logo-image">
 				<div class="col-12 col-md-12">
-					<div class="d-flex justify-content-center">
+
+					<div class="d-flex justify-content-center">	
 						<img src="./images/logo-git.png">
 						<img src="./images/logo-sublime-text-3.png">
 						<img src="./images/logo-gitlab-ci-cd.png">
 					</div>
 				</div>
 			</div>
+
 		</div>
 
 		<div class="container-fluid">
 		<!-- Contact -->
-		<div class="post-heading">
+			<div class="post-heading">
 				<h1 class="display-4" id="contact">Contact US</h1>
 				<hr>
 			</div>
 			<div class="row" id="contact-details">
-				<div class="col-12 col-md-12">
-					<h3>Message Us!</h3>
+				<div class="col-12 col-md-6 order-2 order-md-1">
+					
 					<form>
+						<h3>How can we help you today?</h3>
 						<div class="form-group">
 							<label for="txt-username">Name:</label>
 							<input type="text" name="name" id="txt-username" placeholder="Enter Full Name" class="form-control">
@@ -184,28 +192,49 @@
 						</button>
 					</form>
 				</div>
-			</div>	
-			<div class="row" id="visit-details">
+				<div class="col-12 col-md-6 order-1 order-md-2 convo">
+					<h3>Let's Start a Conversation</h3>
+					<p>Email us wiith any questions or inquiries or call us. We would be happy to answer your questions and set up a meet with you. Kim Artienda Portfolio can help set you apart from the flock!</p>
+					<div>
+						<i class="fa-solid fa-location-dot faicons"></i>
+						<span>Mandaluyong, Philippines</span>
+					</div>
+					<div>
+						<i class="fa-solid fa-at faicons"></i>
+						<span>example@gmail.com</span>
+					</div>
+					<div>
+						<i class="fa-solid fa-mobile-screen faicons"></i>
+						<span>0995-000-0000</span>
+					</div>
+					<h4>Connect with us</h4>
+					<div>
+						<a href="https://www.linkedin.com/in/kimartienda/" target="_blank">
+							<i class="fa-brands fa-linkedin faicons"></i>
+						</a>
+						<span>Linkedin</span>
+					</div>
+					<div>	
+						<a href="https://gitlab.com/kimartienda/" target="_blank">
+							<i class="fa-brands fa-gitlab faicons"></i>
+						</a>
+						<span>GitLab</span>
+					</div>
+				</div>
+			</div>		
+
+			<!-- <div class="row" id="visit-details">
+				
 				<div class="col-12 col-md-12">
-				<h3> Visit Us!</h3>
 				<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=mandaluyong&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 				</div>
-			</div>
+			</div> -->
 			
 		</div>
 		<!-- Footer -->
 		<footer class="bg-dark">
 			<p class="text-center text-white">
 				&copy; 2022 Kim Artienda | All rights reserved </p>
-			<div class="d-flex justify-content-center">
-
-				<a href="https://www.linkedin.com/in/kimartienda/" target="_blank">
-					<i class="fa-brands fa-linkedin footer-icons"></i>
-				</a>
-				<a href="https://gitlab.com/kimartienda/" target="_blank">
-					<i class="fa-brands fa-gitlab footer-icons"></i>
-				</a>
-			</div>	
 		</footer>
 
 

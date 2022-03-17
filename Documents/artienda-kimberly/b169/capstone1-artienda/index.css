@@ -3,26 +3,39 @@
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	overflow-x: hidden;
 	background-image: url(https://images.pexels.com/photos/4004375/pexels-photo-4004375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 	background-size: cover; /*cover the area of the element*/
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
+
 .navbar {
+	background: #131313;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: 0.2rem;
-	background: rgba(0, 0, 0, 0.30) !important;
-	padding: 20px 0;
+	padding: 1rem 8 rem;
+
+}
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+	position: fixed;
+  width: 100%;
+}
+
+.navbar .navbar-brand {
+	font-size: 2rem;
+	
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -41,6 +54,13 @@ body {
 
 #navbarTogglerDemo02 form {
 	margin-right: 1rem;
+}
+
+#navbarTogglerDemo02 > button {
+	font-weight: 600;
+	padding: 0.4rem 1.4rem;
+	border-radius: 30px;
+	margin-right: 3rem;
 }
 
 .center {
@@ -90,13 +110,21 @@ body {
 
  }
 
+ #landing h2 {
+ 	padding: 2rem;
+ }
+
+  #landing p {
+ 	padding: 1rem;
+ }
+
+
  .rounded-circle {
  	border: 1px solid black; box-shadow: 1px 5px 5px #36454f
  }
 
 #about {
 	margin-top: 3rem;
-	padding-bottom: 5rem;
 
 }
 
@@ -132,7 +160,9 @@ body {
 
 #gmap_canvas {
 	height: 80vh;
-	width: 100%;
+	width: 80%;
+	margin-top: 5rem;
+
 }
 
 html {
@@ -158,27 +188,17 @@ hr {
 	color: whitesmoke;
 }
 
+#myphoto {
+	width: 80vh;
+	margin-left: auto;
+}
+
 #aboutmep {
 	color: whitesmoke;
 }
 
 .display-4 {
 	margin-top: 5rem;
-}
-
-footer {
-	margin-top: 5rem;
-	padding: 2rem;
-}
-
-footer a {
-	color: white;
-	margin-right: 2rem;
-	margin-left: 2 rem;
-}
-
-.footer-icons {
-	font-size: 2rem;
 }
 
 #visit-details {
@@ -188,6 +208,38 @@ footer a {
 
 #contact-details {
 	color: whitesmoke;
-	text-align: center;
+	
 }
 
+#contact-details h3 {
+	text-transform: uppercase;
+}
+
+.faicons {
+	font-size: 1.5rem;
+	color: white;
+	text-decoration: none;
+}
+
+#tools h2 {
+	text-align: center;
+	color: white;
+}
+
+.card {
+	margin-bottom: 1rem;
+}
+
+.convo {
+	margin-bottom: 1rem;
+}
+
+.convo h4 {
+	margin-top: 2rem;
+	text-transform: uppercase;
+}
+
+footer {
+	margin-top: 2rem;
+	padding: .5rem;
+}
