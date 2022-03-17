@@ -38,7 +38,7 @@
 			        <a class="nav-link" href="#contact">Contact</a>
 			      </li>
 			    </ul>
-			    <a href="./booking.html">
+			    <a href="./booking.html" class="booknow">
 			   <button class="btn btn-success" type="submit">Book Now!</button>
 			   </a>
 			  </div>
@@ -73,7 +73,7 @@
 				<div class="col-md-5 col-12 d-none d-md-flex">
 					<img src="./images/myphoto2.png" id="myphoto">
 				</div>
-				<div class="col-md-5 col-12" id="aboutmetext">
+				<div class="col-md-7 col-12" id="aboutmetext">
 					<h2>Hey there! I'm Kim, a Full Stack Web Developer.</h2>
 					
 					<p>After developing major dashboards in the finance industry for several years, the urge to switch contexts and dive further into tech grew too strong to ignore. In December 2021, I left the security and stability I had always known to focus solely on honing and growing my programming skills.</p>
@@ -89,7 +89,7 @@
 		<!-- About End -->
 
 		<!-- Projects -->
-		<div class="container-fluid">
+		<div class="container-fluid card-container">
 			<div class="post-heading">
 				<h1 class="display-4" id="projects">Projects</h1>
 				<hr>
@@ -172,28 +172,8 @@
 				<hr>
 			</div>
 			<div class="row" id="contact-details">
-				<div class="col-12 col-md-6 order-2 order-md-1">
-					
-					<form>
-						<h3>How can we help you today?</h3>
-						<div class="form-group">
-							<label for="txt-username">Name:</label>
-							<input type="text" name="name" id="txt-username" placeholder="Enter Full Name" class="form-control" required>
-						</div>
-						<div class="form-group">
-							<label for="txt-email">Email:</label>
-							<input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control" required>
-						</div>
-						<div class="form-group">
-							<label for="txt-message">Message:</label>
-							<textarea class="form-control" id="txt-message" rows="3"></textarea>
-						</div>
-						<button type="submit" class="btn btn-block btn-dark">
-							Submit
-						</button>
-					</form>
-				</div>
-				<div class="col-12 col-md-6 order-1 order-md-2 convo">
+
+				<div class="col-12 col-md-6 convo">
 					<h3>Let's Start a Conversation</h3>
 					<p>Email us wiith any questions or inquiries or call us. We would be happy to answer your questions and set up a meet with you. Kim Artienda Portfolio can help set you apart from the flock!</p>
 					<div>
@@ -222,6 +202,27 @@
 						<span>GitLab</span>
 					</div>
 				</div>
+				<div class="col-12 col-md-6">
+					<form>
+						<h3>How can we help you today?</h3>
+						<div class="form-group">
+							<label for="txt-username">Name:</label>
+							<input type="text" name="name" id="txt-username" placeholder="Enter Full Name" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label for="txt-email">Email:</label>
+							<input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label for="txt-message">Message:</label>
+							<textarea class="form-control" id="txt-message" rows="3"></textarea>
+						</div>
+						<button type="submit" class="btn btn-block btn-dark">
+							Submit
+						</button>
+					</form>
+				</div>
+				
 			</div>		
 
 			<!-- <div class="row" id="visit-details">

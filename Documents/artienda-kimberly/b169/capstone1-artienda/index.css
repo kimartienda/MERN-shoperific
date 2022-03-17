@@ -23,6 +23,7 @@ body {
 	letter-spacing: 0.2rem;
 	padding: 1rem 8 rem;
 
+
 }
 
 .navbar-fixed {
@@ -48,11 +49,14 @@ body {
 	color: #1ebba3;
 }
 
-#navbarTogglerDemo02 > button {
-	font-weight: 600;
+#navbarTogglerDemo02 {
+	margin: auto;
+}
+
+#navbarTogglerDemo02 a {
 	padding: 0.4rem 1.4rem;
 	border-radius: 30px;
-	margin-right: 5rem;
+	margin-right: 2rem;
 }
 
  .heading-content {
@@ -176,6 +180,7 @@ hr {
 
 #aboutmetext {
 	color: whitesmoke;
+	padding-right: 5rem;
 
 }
 
@@ -190,6 +195,9 @@ hr {
 
 #contact-details {
 	color: whitesmoke;
+	margin-left: 2rem;
+	margin-right: 2rem;
+
 	
 }
 
@@ -210,7 +218,11 @@ hr {
 
 .card {
 	margin-bottom: 1rem;
+	padding: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
+
 
 .convo {
 	margin-bottom: 1rem;
@@ -221,7 +233,9 @@ hr {
 	text-transform: uppercase;
 }
 
-footer {
+footer p {
+	margin: auto;
 	margin-top: 2rem;
-	padding: .5rem;
+	padding: 2rem;
 }
+
