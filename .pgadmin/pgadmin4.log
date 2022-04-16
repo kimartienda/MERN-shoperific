@@ -1,0 +1,18 @@
+2022-02-07 18:58:35,072: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2022-02-07 18:58:35,072: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2022-02-07 19:04:55,777: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2022-02-07 19:05:16,092: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2022-02-07 19:11:03,494: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2022-02-07 21:04:59,543: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2022-02-07 22:43:49,672: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8881132(Query-id: 801001):
+Error Message:ERROR:  syntax error at or near "name"
+LINE 1: name, age, address, loan_amount
+        ^
+SQL state: 42601
+Character: 1
+2022-02-07 23:14:01,655: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:6117325(Query-id: 6358387):
+Error Message:ERROR:  syntax error at or near "customer"
+LINE 1: SELECT * customer
+                 ^
+SQL state: 42601
+Character: 10

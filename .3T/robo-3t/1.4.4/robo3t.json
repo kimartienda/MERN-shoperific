@@ -1,0 +1,94 @@
+{
+ "acceptedEulaVersions" : [
+  "1.4.4"
+ ],
+ "anonymousID" : "456a0dac-a1e5-466c-8754-709660443482",
+ "autoExec" : true,
+ "autoExpand" : true,
+ "autocompletionMode" : 1,
+ "batchSize" : 50,
+ "cacheData" : {
+  
+ },
+ "checkForUpdates" : true,
+ "connections" : [
+  {
+   "connectionName" : "New Connection",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : true,
+     "manuallyVisibleDbs" : "",
+     "mechanism" : "SCRAM-SHA-1",
+     "useManuallyVisibleDbs" : false,
+     "userName" : "admin_artienda",
+     "userPasswordEncrypted" : "AwJ49iBIa2pyM1EUmA=="
+    }
+   ],
+   "defaultDatabase" : "myFirstDatabase",
+   "isReplicaSet" : true,
+   "replicaSet" : {
+    "0" : "cluster0-shard-00-00.mtvrk.mongodb.net:27017",
+    "1" : "cluster0-shard-00-01.mtvrk.mongodb.net:27017",
+    "2" : "cluster0-shard-00-02.mtvrk.mongodb.net:27017",
+    "cachedSetName" : "",
+    "readPreference" : 0,
+    "setNameUserEntered" : "atlas-y8w3ba-shard-0"
+   },
+   "serverHost" : "cluster0-shard-00-00.mtvrk.mongodb.net",
+   "serverPort" : 27017,
+   "ssh" : {
+    "askPassword" : false,
+    "enabled" : false,
+    "host" : "",
+    "method" : "publickey",
+    "passphraseEncrypted" : "",
+    "port" : 22,
+    "privateKeyFile" : "",
+    "publicKeyFile" : "",
+    "userName" : "",
+    "userPasswordEncrypted" : ""
+   },
+   "ssl" : {
+    "allowInvalidCertificates" : false,
+    "allowInvalidHostnames" : false,
+    "askPassphrase" : false,
+    "caFile" : "",
+    "crlFile" : "",
+    "pemKeyFile" : "",
+    "pemPassPhraseEncrypted" : "",
+    "sslEnabled" : true,
+    "useAdvancedOptions" : false,
+    "usePemFile" : false
+   },
+   "uuid" : "{c0870535-7237-418f-9db0-527f457754cf}"
+  }
+ ],
+ "dbVersionsConnected" : [
+  "5.0.6"
+ ],
+ "debugMode" : false,
+ "disableConnectionShortcuts" : false,
+ "disableHttpsFeatures" : false,
+ "imported" : false,
+ "lineNumbers" : false,
+ "loadMongoRcJs" : false,
+ "minimizeToTray" : false,
+ "mongoTimeoutSec" : 10,
+ "programExitedNormally" : true,
+ "shellTimeoutSec" : 15,
+ "style" : "Native",
+ "textFontFamily" : "",
+ "textFontPointSize" : -1,
+ "timeZone" : 0,
+ "toolbars" : {
+  "connect" : true,
+  "exec" : true,
+  "explorer" : true,
+  "logs" : false,
+  "open_save" : true
+ },
+ "uuidEncoding" : 0,
+ "version" : "2.0",
+ "viewMode" : 1
+}
