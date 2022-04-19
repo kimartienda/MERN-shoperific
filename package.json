@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://gitlab.com/zuitt-projects-artienda/capstone3/issues"
   },
-  "homepage": "https://gitlab.com/zuitt-projects-artienda/capstone3#readme"
+  "homepage": "https://gitlab.com/zuitt-projects-artienda/capstone3#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
 }
