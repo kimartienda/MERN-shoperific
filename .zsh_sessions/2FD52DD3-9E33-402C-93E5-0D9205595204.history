@@ -1,0 +1,1010 @@
+django-admin startproject mysite .
+python manage.py runserver
+python manage.py startapp playground
+pipenv --venv
+clear
+python manage.py migrate
+python manage.py startapp playground
+python manage.py runserver
+django-admin
+django-admin startproject storefront .
+pip3 install django
+ls
+code .
+pip shell
+pipenv shell
+ . /Users/kimartienda/Desktop/Pycharm/storefront/venv/bin/activate
+django-admin
+django-admin strartproject storefront .
+django-admin startproject storefront .
+python manage.py
+python manage.py runserver
+python manage.py runserver
+python manage.py startapp playground
+python manage.py migrate
+pip instal django-debug-toolbar
+pip install django-debug-toolbar
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+pip install django-debug-toolbar
+python manage.py runserver
+python 3 --version
+python3 --version
+pip3 install pipenv
+python manage.py runserver
+pip install django-debug-toolbar
+python manage.py runserver
+$ python -m pip install django-debug-toolbar
+python -m pip install django-debug-toolbar
+-m pip install --upgrade pip
+python manage.py runserver
+python manage.py runserver
+pip install django
+pip3 install django
+django-admin startproject mysite .
+pip install django
+django-admin
+django-admin startproject mysite .
+python manage.py runserver
+python manage.py startapp main
+python manage.py runserver
+python manage.py migrate
+python manage.py makemigrations main
+python manage.py migrate
+python manage.py shell
+python manage.py runserver
+node
+apt-get install python3-tk -y
+sudo su
+/usr/local/bin/python3 "/Users/kimartienda/Desktop/Visual Studio/main.py"
+/usr/local/bin/python3 "/Users/kimartienda/Desktop/Visual Studio/main.py"
+/usr/local/bin/python3 "/Users/kimartienda/Desktop/Visual Studio/main.py"
+/usr/local/bin/python3 "/Users/kimartienda/Desktop/Visual Studio/main.py"
+/usr/local/bin/python3 "/Users/kimartienda/Desktop/Visual Studio/main.py"
+/usr/local/bin/python3 "/Users/kimartienda/Desktop/Visual Studio/main.py"
+/usr/local/bin/python3 "/Users/kimartienda/Desktop/Visual Studio/main.py"
+ls
+which brew
+-v brew
+brew -v
+git --version
+clear
+node -v.
+node -v
+clear
+brew install --cask robo-3t
+robo 3t
+brew install --cask robo-3t
+mongo start
+mongo â€ƒ³version
+mongo â€ƒ³version
+brew install --cask robo-3t
+clear
+brew tap heroku/brew && brew install heroku
+heroku -version.
+heroku -version
+y
+heroku -version
+y
+heroku
+node -v
+which node
+clear
+git --version
+npm -v
+node -v
+heroku
+ls
+pwd
+ls
+cd Documents
+ls
+mkdir artienda-kimberly
+ls
+cd artienda-kimberly
+mkdir b169
+ls
+cd b169
+mkdir s2
+ls
+cd s2
+touch aboutme.txt
+git config --global user.email "kim.artienda@gmail.com"
+git config --global user.email
+git config --global user.name "Kimberly Carmel Artienda"
+git config --global user.name
+ssh-keygen
+pbcopy < ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_rsa.pub
+git init
+git status
+git add .
+git commit -m "add discussion notes"
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s2.git
+git remote -v
+git push origin master
+git add .
+git commit -m "add git config and ssh notes"
+git push origin master
+git add .
+git commit -m "add local and online repo notes"
+git push origin master
+git add .
+git commit -m "add pushing commands"
+git push origin master
+git add .
+git commit -m "add Pushing Flow"
+git push origin master
+git add .
+git commit -m "add my information"
+git push origin master
+git remove -v
+git init
+clear
+ls
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s2
+git init
+git status
+git add .
+git commit -m"add my first activity"
+git push origin master
+pwd
+git add .
+git commit -m "add my hobbies"
+git oush origin master
+git push origin master
+sd artienda-kim
+ls
+cd artienda-kimberly
+cd s3
+cd artienda-kimberly
+cd Documents
+cd artienda-kimberly
+cd b169
+cd s3
+git status
+pwd
+git init
+git add .
+git commit -m "add discussion and activity on html"
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s3.git
+git remote -v
+git push origin master
+ls
+cd Documets
+cs Documents
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s4
+git init
+git add .
+git commit -m "add activity and discussion about html"
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s4.git
+git remote -v
+git push origin master
+cd s5
+ls
+cd Documents
+ls
+clear
+cd Documents
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s5
+ls
+git init
+git add .
+git commit -m "add activity and discussion"
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s5.git
+git remote -v
+git push origin master
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s5
+git add .
+git commit -m "amended syntax in package line"
+git push origin master
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s6
+git init
+git add .
+git commit -m "add activity and discussions"
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s6.git
+git remote -v
+git push origin master
+git add .
+gitgit add .
+git commit -m"add CSS intro activity"
+git push origin master
+git add .
+git commit -m "add CSS intro activity"
+git push origin master
+git add .
+git commit -m "add CSS intro activity."
+git push origin maser
+git push origin master
+bootstrp
+bootstrap
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s7
+git init
+git add .
+git commit -m"add discussion and activity"
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s7.git
+git remote -v
+git push origin master
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s8
+ls
+clear
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s8-s11 activity
+cd s8-s11_activity
+cd s8-s11 activity
+cd s8-s11-activity
+ls
+git init
+git add .
+git commit -m "added s8-s11 activity"
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s8-11-activity.git
+git push origin master
+git add .
+git commit -m "replace screenshot"
+git push origin master
+git add .
+git commit -m "updated card margins"
+git push origin master
+git add .
+git commit -m "replace screenshot"
+git push origin master
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s8-s11-activity
+ls
+git add .
+git commit -m "add project section"
+git push origin master
+ls
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+git clone git@gitlab.com:tuitt/students/batch169/resources/images.git
+cd s8-s11-activity
+ls
+git add .
+git commit -m "add tools section"
+git push origin master
+git add .
+git commit -m "amend cards for better mobile view"
+git push origin master
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+ls
+cd s8-s11-activity
+git add .
+git commit -m "includes s11-act contact section"
+git push origin master
+git add .
+git commit -m "updated linked link"
+git push origin master
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd capstone1-artienda
+ls
+git add .
+git commit -m "add capstone1"
+git remote add origin git@gitlab.com:zuitt-projects-artienda/capstone1-artienda.git
+git push origin master
+ls
+git add .
+git commit -m "improve capstone1"
+git push origin master
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd capstone1-artienda
+ls
+git add .
+git commit -m "add social media and remove map"
+git push origin master
+git add .
+git commit -m "amend intro margin"
+git push origin master
+git add .
+git commit -m "add session 2 features"
+git push origin master
+git add .
+git commit -m "add link to book button"
+git push origin master
+git add .
+git commit -m "add link in landing page"
+git push origin master
+git add .
+git commit -m "delete redundant style in css"
+git push origin master
+git add .
+git commit -m "hide button in about me for a while"
+git push origin master
+git add .
+git commt -m "amend font of header"
+git push origin master
+git add .
+git commit -m "amend font of header"
+git push origin master
+git add .
+git commit -m "amend links"
+git push origin master
+git add .
+git commit -m "amend margins"
+git push origin master
+git add .
+git commit -m "added header margin"
+git push origin master
+git add .
+git commit -m "fix margins and paddings"
+git push origin master
+git add .
+git commit -m "fix paddings"
+git add .
+git config -- kim.artienda@gmail.com
+git config -- global user.email "kim.artienda@gmail.com"
+git config -- kimartienda
+git.config -- global user.email "kim.artienda@gmail.com"
+clear
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd capstone1-artienda
+git config -- username "kim.artienda@gmail.com"
+git config -- user.name "kimartienda"
+ssh - keyge
+ssh - keygen
+sssh- keygen pbcopy < ~/.ssh/id_rsa.pub\
+
+ssh- keygen pbcopy < ~/.ssh/id_rsa.pub\
+
+ssh- keygen
+pbcopy < ~/.ssh/id_rsa.pub\
+
+git remote add github git@github.com:kimartienda/portfolio-artienda.git
+git add .
+git commit -m "add updates for portfolio"
+git push github master
+git init
+git add .
+git commit -m "add updates for portfolio"
+git remote add github git@github.com:kimartienda/portfolio-artienda.git
+git push github master
+git commit -m "change photo"
+git push github master
+git add .
+git commit -m "change photo"
+git push github master
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s14
+git add .
+git commit -m "added activity solution"
+git push origin master
+git init
+git add .
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s14
+git init
+git add .
+git commit -m "added activity solution"
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s14.git
+git push origin master
+../
+..
+./
+/..
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s15
+ls
+git init
+git add .
+git commit -m "added activity solution"
+git git push origin master
+git push origin master
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s15.git
+git add .
+git commit -m "added activity solution"
+git push origin master
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cs b169
+ls
+cd b169
+ls
+cd s16
+ls
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s16.git
+git add .
+git commit -"added activity solution"
+git commit -m "added activity solution"
+git push origin master
+git add .
+git commit -m "added solution"
+git push origin master
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s17
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s17.git
+git add .
+git commit -m "added activity solution"
+git push origin master
+git add .
+git commit -m "amended solutions"
+git push origin master
+cd Documents
+ls
+cd artienda-kimberly
+cs
+ls
+cd b169
+ls
+cd s18
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s18.git
+git add .
+git commit -m "added activity solution"
+git push origin master
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s19.git
+cd
+cd Documents
+s
+ls
+cd artienda-kimberly
+;s
+ls
+cd b169
+ls
+cd s19
+ls
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s19.git
+git add .
+git commit -m "added solution to activity"
+git push origin master
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s20
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s20.git
+git add .
+git commit -m "added activity solution"
+git push origin master
+../
+/
+//
+./
+cd Documents
+cd artienda-kimberly
+cd b169
+ls
+cd s22
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s22.git\
+
+git add .
+git commiit -m "added solution to activity"
+git push origin master
+git commit -m "added solution to activity"
+git push origin master
+git add .
+git commit -m "amended solutions"
+git push origin master
+git add .
+git commit -m "added activity solution"
+git push origin master
+cd Documents
+cd artien-kimberly
+cd b169
+ls
+cd artienda-kimberly
+cd b169
+ls
+cd s23
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s23.git\
+
+git add .
+git commit -m "added activity solution"
+git push origin master
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s24
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s24.git\
+
+git add .
+git commit -m "added solutions to activity"
+git push origin master
+node -v
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s25
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s25.git\
+
+git add .\
+
+git add .
+git commit -m "Added activity solution"
+git push origin master
+git add .
+git commit -m "added activity solutions"
+git push origin mater
+git push origin master
+node --version
+cd Documents
+cd artienda-kimberly
+cd b169
+ls
+cd s26
+node New.js
+node file.js
+ls
+node index
+node index
+node index
+node index
+node route
+ls
+node routes
+npm install -g nodemon
+sudo npm install -g nodemon
+nodemon routes.js
+ls
+cd activity
+nodemon index.js
+sudo npm install -g nodemon
+nodemon index.js
+sudo npm install -g nodemon
+nodemon index.js
+sudo npm install -g nodemon
+nodemon index.js
+clear
+sudo npm install -g nodemon
+nodemon index.js
+cd ..
+cd activity
+nodemon index.js
+nodemon index.js
+nodemon index.js
+sudo npm install -g nodemon
+nodemon index.js
+npx kill-port 5000
+y
+killall -9 node
+killall -9 node
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+cd
+ls
+cd Documents
+cd artienda-kimberly
+cd b169
+ls
+cd s26
+cd activity
+ls
+sudo npm install -g nodemon
+nodemon index.js
+sudo lsof -i:5000
+nodemon index.js
+pkill nodejs
+nodemon index.js
+pkill nodejs
+sudo npm install -g nodemon
+nodemon index.js
+sudo lsof -i :5000
+nodemon index.js
+node index
+killall node
+node index
+pkill -f node
+cd ..
+pkill -f node
+cd activity
+nodemon index.js
+ls
+nodemon index.js
+cd ..
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s26.git
+git add .
+git commit -m "added activity solution"
+git push origin master
+cd Documents
+ls
+cd artenda-kimberly
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s26
+cd activity
+ls
+nodemon index.js
+nodemon index.js
+cd ..
+cd ..
+cd s27
+ls
+nodemon index.js
+nodemon index.js
+nodemon index.js
+nodemon index.js
+nodemon index.js
+cd activity
+nodemon index.js
+nodemon index.js
+cd ..
+ls
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s27.git
+git add .
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s27.git
+git add .
+cd Documents
+cd artienda-kimberly
+cd b169
+ls
+cd s27
+git add .
+git remote rename origin old-origin
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s27.git
+git add .
+sudo chown -R USER:(id -gn $USER) /Users/kimartienda/.config\
+
+sudo chown -R hamid /Users/hamid\
+
+sudo chown -R hamid /Users/kimartienda
+sudo chown -R kimartienda /Users/kimartienda
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s27.git
+git add .
+git commit -m "added activity solution"
+git push origin master
+cd activity
+nodemon index.js
+cd ..
+cd ..
+cd s28-s29
+ls
+npm init -y
+ls
+npm i express
+ls
+touch .gitignore
+touch index.js
+ls
+npm start
+npm start
+nodemon index.js
+nodemon index.js
+npm start
+npm start
+npm start
+npm start
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s28-s29.git
+git@gitlab.com:zuitt-projects-artienda/s28-s29.git
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s28-s29.git
+git add .
+git commit -m "added activity solutions"
+git push origin master
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s30-s31
+npm init -y
+npm i express
+touch index.js
+touch .gitignore
+npm start
+npm i mongoose
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s30-s31.git
+git add .
+git commit -m "added activity solution"
+git push origin master
+npm start
+git add .
+git commit -m "added postman"
+git push origin master
+cd Documments
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s30-s31
+npm start
+npm start
+npm start
+npm start
+git add .
+git commit -m "added solution to actvity"
+git push origin master
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s30-s31
+npm start
+cd Documents
+cd artienda-kimberly
+cd b169
+ls
+cd s32-s36
+ls
+npm init -y
+npm i express
+touch .gitignore index.js
+npm i mongoose
+npm start
+npm i bcrypt
+npm i nodemon
+npm i jsonwebtoken
+npm start
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/s32-s36.git
+git add .
+git commit -m "added activity 1 solution"
+git push origin master
+git add .
+git commit -m "amended course model"
+git push origin master
+git add .
+git commit -m "amended model"
+git push origin master
+git add .
+git commit -m "added activity 1 solution"
+git push origin master
+npm start
+npm start
+npm start
+git add .
+git commit -m "added activity 2 solution"
+git push origin master
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd s32-s36
+npm start
+pwd
+npm i cors
+npm start
+npm start
+git add .
+git commit -m "added activity 3 solution"
+git push origin master
+npm start
+npm start
+git add .
+git commit -m "updated routers"
+git push origin master
+npm start
+npm start
+git add .
+git commit -m "added activity 4 solution"
+git push origin master
+git add .
+git commit -m "added activity 4 solution"
+git push origin master
+git add .
+npm start
+git add .
+git commit -m "added activity 4 solution"
+git push origin master
+npm start
+git add .
+git commit -m "added activity 4 solution"
+npm start
+git push origin master
+npm start
+cd Documents
+ls
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd capstone2-artienda
+ls
+npm init -y
+npm i express
+touch .gitignore index.js
+npm i mongoose
+npm i bcrypt
+npm i jsonwebtoken
+npm i nodemon
+npm i cors
+npm start
+npm start
+cd Documents
+cd artienda0kimberl
+cd artienda-kimberly
+cd b169
+ls
+cd s32-s36
+npm start
+npm start
+git add .
+git commit -m "added activity 5 solution"
+git push origin master
+npm start
+git add .
+git commit -m "added activity 5 solution"
+git push origin master
+npm start
+git add .
+git commit -m "added activity 5 solution"
+git push origin master
+npm start
+git add .
+git commit -m "added activity 5 solution"
+git push origin master
+npm start
+cd ../
+ls
+cd capstone2-artienda
+ls
+npm start
+npm start
+cd..
+cd ..
+cd capstone2
+ls
+git init
+git remote add origin git@gitlab.com:zuitt-projects-artienda/capstone2-artienda.git
+git add .
+git commit -m "added: day1 deliverables"
+git push origin master
+git add .
+git commit -m "added: day1 deliverables"
+git push origin master
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd capstone2
+npm start
+npm install invoice-number
+npm start
+npm start
+npm start
+cd Documents
+cd artienda-kimberly
+ls
+cd b169
+ls
+cd capstone2
+npm start
+git add .
+git commit -m "added: day2 deliverables"
+git push origin master
+npm start
+npm install uuid
+npm start
+npm start
+npm start
+npm start
+npm start
+git add .
+git commit -m "added: s39 deliverables"
+git push origin master
+git add .
+git commit -m "added: s39 deliverables"
+git push origin master
