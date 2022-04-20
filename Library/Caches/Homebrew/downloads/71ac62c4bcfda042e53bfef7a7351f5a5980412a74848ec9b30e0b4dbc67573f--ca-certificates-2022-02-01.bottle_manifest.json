@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b7fe5df40a84b605a9703d8e3372d40c26ffae0ac0f5bd05e8670fb9810367a7",
+      "size": 1905,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2022-02-01.all",
+        "sh.brew.bottle.digest": "40e00f88df310bc2dc42aefb3e834c0a3022f125fecdf21f26431d12a104dbc0",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.3.13-21-g397afb6\",\"changed_files\":[],\"source_modified_time\":1643688725,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 10.15.7\",\"cpu_family\":\"penryn\",\"xcode\":\"12.4\",\"clt\":\"12.0.0.32.29\",\"preferred_perl\":\"5.18\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2022-01-31",
+    "org.opencontainers.image.description": "Mozilla CA certificate store",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/ca-certificates",
+    "org.opencontainers.image.license": "MPL-2.0",
+    "org.opencontainers.image.ref.name": "2022-02-01",
+    "org.opencontainers.image.revision": "a671b39a1a139ce00ea337bca9aafcb2ae12045c",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/a671b39a1a139ce00ea337bca9aafcb2ae12045c/Formula/ca-certificates.rb",
+    "org.opencontainers.image.title": "ca-certificates",
+    "org.opencontainers.image.url": "https://curl.se/docs/caextract.html",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2022-02-01"
+  }
+}

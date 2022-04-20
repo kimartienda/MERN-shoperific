@@ -1,0 +1,68 @@
+# encoding: utf-8
+# module pygame.bufferproxy
+# from /Users/kimartienda/Desktop/Space-Invaders-Pygame/venv/lib/python3.10/site-packages/pygame/bufferproxy.cpython-310-darwin.so
+# by generator 1.147
+"""
+BufferProxy(<parent>) -> BufferProxy
+pygame object to export a surface buffer through an array protocol
+"""
+# no imports
+
+# no functions
+# classes
+
+class BufferProxy(object):
+    """
+    BufferProxy(<parent>) -> BufferProxy
+    pygame object to export a surface buffer through an array protocol
+    """
+    def write(self, buffer, offset=0): # real signature unknown; restored from __doc__
+        """
+        write(buffer, offset=0)
+        Write raw bytes to object buffer.
+        """
+        pass
+
+    def __init__(self, *args, **kwargs): # real signature unknown; NOTE: unreliably restored from __doc__ 
+        pass
+
+    @staticmethod # known case of __new__
+    def __new__(*args, **kwargs): # real signature unknown
+        """ Create and return a new object.  See help(type) for accurate signature. """
+        pass
+
+    def __repr__(self, *args, **kwargs): # real signature unknown
+        """ Return repr(self). """
+        pass
+
+    length = property(lambda self: object(), lambda self, v: None, lambda self: None)  # default
+    """length -> int
+The size, in bytes, of the exported buffer."""
+
+    parent = property(lambda self: object(), lambda self, v: None, lambda self: None)  # default
+    """parent -> Surface
+parent -> <parent>
+Return wrapped exporting object."""
+
+    raw = property(lambda self: object(), lambda self, v: None, lambda self: None)  # default
+    """raw -> bytes
+A copy of the exported buffer as a single block of bytes."""
+
+    __array_interface__ = property(lambda self: object(), lambda self, v: None, lambda self: None)  # default
+    """Version 3 array interface, Python level"""
+
+    __array_struct__ = property(lambda self: object(), lambda self, v: None, lambda self: None)  # default
+    """Version 3 array interface, C level"""
+
+
+    __dict__ = None # (!) real value is "mappingproxy({'__new__': <built-in method __new__ of type object at 0x1021a4328>, '__repr__': <slot wrapper '__repr__' of 'pygame.BufferProxy' objects>, 'write': <method 'write' of 'pygame.BufferProxy' objects>, '__array_struct__': <attribute '__array_struct__' of 'pygame.BufferProxy' objects>, '__array_interface__': <attribute '__array_interface__' of 'pygame.BufferProxy' objects>, 'parent': <attribute 'parent' of 'pygame.BufferProxy' objects>, '__dict__': <attribute '__dict__' of 'pygame.BufferProxy' objects>, 'raw': <attribute 'raw' of 'pygame.BufferProxy' objects>, 'length': <attribute 'length' of 'pygame.BufferProxy' objects>, '__doc__': 'BufferProxy(<parent>) -> BufferProxy\\npygame object to export a surface buffer through an array protocol'})"
+
+
+# variables with complex values
+
+_PYGAME_C_API = None # (!) real value is '<capsule object "pygame.bufferproxy._PYGAME_C_API" at 0x1020e54d0>'
+
+__loader__ = None # (!) real value is '<_frozen_importlib_external.ExtensionFileLoader object at 0x1020e5660>'
+
+__spec__ = None # (!) real value is "ModuleSpec(name='pygame.bufferproxy', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x1020e5660>, origin='/Users/kimartienda/Desktop/pythonProject1/pygame1/venv/lib/python3.10/site-packages/pygame/bufferproxy.cpython-310-darwin.so')"
+
